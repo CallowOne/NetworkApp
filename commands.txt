@@ -1,0 +1,2 @@
+ip addr show
+echo "You smell bad yo!"

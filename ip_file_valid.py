@@ -5,7 +5,7 @@ import sys
 def ip_file_valid():
 
     #Prompting user for input
-    ip_file = input("\n# Enter IP file path and name (e.g. D:\MyApps\myfile.txt): ")
+    ip_file = input(r"\n# Enter IP file path and name (e.g. D:\MyApps\myfile.txt): ")
 
     #Changing exception message
     if os.path.isfile(ip_file) == True:
@@ -28,3 +28,5 @@ def ip_file_valid():
     selected_ip_file.close()
         
     return ip_list
+
+# ip_file_valid()
