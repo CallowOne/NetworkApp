@@ -13,3 +13,6 @@ def ip_addr_valid(list):
         else:
             print('\n* There was an invalid IP address in the file: {} :(\n'.format(ip))
             sys.exit()
+
+ip_list = ['192.168.1.30','10.50.3.1']
+ip_addr_valid(ip_list)
